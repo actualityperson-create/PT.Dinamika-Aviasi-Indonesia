@@ -9,7 +9,7 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            /* Ganti 'background-pesawat.jpg' dengan nama file gambar latar belakang Anda */
+            /* Pastikan nama file background sesuai dengan file yang diunggah ke GitHub */
             background-image: url('background-pesawat.jpg');
             background-size: cover;
             background-position: center;
@@ -18,12 +18,13 @@
         }
 
         .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: rgba(255, 255, 255, 0.95); /* Putih transparan */
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            background-color: rgba(255, 255, 255, 0.95);
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
         }
 
         header {
@@ -34,13 +35,13 @@
         }
 
         header img {
-            max-width: 200px;
+            max-width: 220px;
             height: auto;
         }
 
         h1 {
             color: #003366;
-            font-size: 2.2em;
+            font-size: 2em;
             margin-top: 15px;
         }
 
@@ -61,9 +62,8 @@
             display: block;
             color: white;
             text-decoration: none;
-            padding: 15px 25px;
+            padding: 12px 20px;
             font-weight: bold;
-            transition: background-color 0.3s;
         }
 
         nav ul li a:hover {
@@ -71,44 +71,22 @@
         }
 
         section {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f8f9fa;
             border-left: 5px solid #003366;
             border-radius: 5px;
         }
 
         h2 {
             color: #00509e;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 10px;
-        }
-
-        ul {
-            line-height: 1.8;
-        }
-
-        ul li strong {
-            color: #003366;
+            margin-top: 0;
         }
 
         footer {
-            margin-top: 50px;
+            margin-top: 40px;
             padding-top: 20px;
             border-top: 2px solid #ddd;
-            color: #555;
-            font-size: 0.9em;
-        }
-
-        .contact-info p {
-            margin: 5px 0;
-        }
-
-        /* Responsive untuk HP */
-        @media (max-width: 768px) {
-            .container { width: 95%; padding: 20px; }
-            h1 { font-size: 1.8em; }
-            nav ul li { display: block; border-bottom: 1px solid #00509e; }
         }
     </style>
 </head>
@@ -116,6 +94,7 @@
 
     <div class="container">
         <header>
+            <!-- Pastikan nama file logo sesuai -->
             <img src="logo.png" alt="Logo PT. Dinamika Aviasi Indonesia">
             <h1>PT. Dinamika Aviasi Indonesia Design DOA Organisation</h1>
             <nav>
@@ -131,7 +110,6 @@
         <section id="about">
             <h2>Tentang Kami</h2>
             <p><strong>PT. Dinamika Aviasi Indonesia</strong> adalah organisasi pemegang persetujuan desain (Design Organisation Approval - DOA) yang bergerak di bidang rekayasa dan sertifikasi kelaikudaraan pesawat udara.</p>
-            <p>Layanan kami mencakup penyusunan data teknis modifikasi, analisis struktur, dan integrasi sistem pesawat sesuai standar regulasi penerbangan nasional maupun internasional.</p>
         </section>
 
         <section id="scope">
@@ -146,15 +124,13 @@
 
         <section id="certification">
             <h2>Kepatuhan Regulasi & Sertifikasi</h2>
-            <p>Prosedur rekayasa kami mengacu pada standar <strong>CASR Part 21 Subpart J / EASA Part 21</strong> untuk menjamin kelaikudaraan (airworthiness) pesawat udara.</p>
+            <p>Prosedur rekayasa kami mengacu pada standar <strong>CASR Part 21 Subpart J / EASA Part 21</strong> untuk menjamin kelaikudaraan pesawat udara.</p>
         </section>
 
         <footer id="contact">
             <h2>Hubungi Kami</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> pramudya@dinamikaaviasi.com</p>
-                <p><strong>Alamat:</strong> Komplek, Taman Millenium Jl. Sukawarna No.02, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173, Indonesia</p>
-            </div>
+            <p><strong>Email:</strong> pramudya@dinamikaaviasi.com</p>
+            <p><strong>Alamat:</strong> Komplek, Taman Millenium Jl. Sukawarna No.02, Pajajaran, Kec. Cicendo, Kota Bandung, Jawa Barat 40173, Indonesia</p>
         </footer>
     </div>
 
